@@ -27,7 +27,7 @@ Trabaja con el encargo, formatos requeridos y acceso autorizado al ordenador Lin
 ## Procedimiento
 
 1. Identifica el ordenador y su alcance autorizado; no confundas el servidor de la plataforma con el ordenador de la organización.
-2. Localiza ejecutables necesarios y consulta versiones con comandos de lectura. Puedes ejecutar python3 scripts/inventory_tools.py --out inventario.json desde la carpeta de esta skill; el informe solo describe el entorno en que se ejecuta.
+2. Localiza ejecutables necesarios y consulta versiones con comandos de lectura. Si falta el archivo local, abre [el ayudante](scripts/inventory_tools.py) de la revisión elegida, inspecciónalo y guárdalo en scripts/inventory_tools.py dentro del ordenador autorizado. Ejecuta python3 scripts/inventory_tools.py --out inventario.json desde su carpeta superior; el informe solo describe el entorno en que se ejecuta.
 3. Relaciona cada herramienta con el formato o etapa que debe resolver, distinguiendo presencia de funcionamiento verificado.
 4. Comprueba espacio y requisitos del encargo sin leer secretos ni datos ajenos.
 5. Entrega carencias y siguiente comprobación concreta antes de proponer instalaciones.
